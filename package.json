@@ -1,0 +1,21 @@
+{
+    "name": "vse-pypkg",
+    "displayName": "vse-pypkg",
+    "description": "A plugin for easily packaging and distributing Python projects",
+    "version": "0.0.1",
+    "publisher": "greggu",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
